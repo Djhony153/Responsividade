@@ -1,0 +1,41 @@
+@media (max-width: 1090px){
+    .perfil img {
+        position: static;
+        margin: 10px 0;
+    }
+
+    .social {
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .infos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .experience, .formacao, .hobbies {
+        margin-top: 20px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px){
+    .perfil{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .presentation {
+        padding: 10px 5px;
+    }
+
+    .redes {
+        justify-content: center;
+    }
+}

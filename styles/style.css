@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #000;
+    --second-color: #F2F2F2;
+    --espaco: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.end {
+    justify-content: end;
+}
+
+.perfil {
+    padding-left: 10px;
+    background-color: var(--second-color);
+}
+
+.perfil img {
+    position: relative;
+    border-radius: 50%;
+    top: -60px;
+    box-shadow: 3px 5px 12px 4px #2d2a2a;
+}
+
+.header-top {
+    background-color: var(--main-color);
+    padding: var(--espaco);
+    flex-direction: column;
+    color: #fff;
+}
+
+.social {
+    width: 100%;
+    gap: 15px;
+    padding: var(--espaco);
+}
+
+.redes{
+    height: 10%;
+    gap: 12px;
+}
+
+.linkedin:hover, .instagram:hover, .github:hover {
+    scale: 1.1;
+}
+
+.presentation {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 20px;
+}
+
+.infos {
+    justify-content: space-around;
+}
+
+.experience, .formacao, .hobbies {
+    margin-top: 20px;
+    width: 20%;
+    padding: 5px 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+footer {
+    margin-top: 10px;
+    background-color: var(--main-color);
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    padding: 10px 5px;
+}
